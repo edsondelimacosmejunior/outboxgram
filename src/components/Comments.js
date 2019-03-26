@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     },
     commentContainer: {
         flexDirection: 'row',
-        marginTop: 5
+        height: 17
     },
     nickname: {
         marginLeft: 5,
@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
         color: '#444'
     },
     comment: {
+        marginLeft: 5,
         color: '#555'
     }
 })
