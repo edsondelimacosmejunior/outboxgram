@@ -10,7 +10,7 @@ export default props => {
     return (
         <View style={styles.container}>
             <Gravatar options={{email: props.email, secure: true}} style={styles.avatar} />
-            <Text style={styles.nickname}>{props.nickname}Teste</Text>
+            <Text style={styles.nickname}>{props.nickname}</Text>
         </View>
     )
 }
@@ -18,7 +18,8 @@ export default props => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginVertical: 10
     },
     avatar: {
         width: 30,
