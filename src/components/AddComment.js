@@ -50,9 +50,6 @@ class AddComment extends Component{
 
         return (
             <View style={{ flex: 1 }}>
-                <Text style={styles.caption}>
-                    Adicione um comentário...
-                </Text>
                 {commentArea}
             </View>
         )
@@ -61,9 +58,13 @@ class AddComment extends Component{
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         alignItems: 'center',
-        marginTop: 10
+        margin: 10,
+        padding: 10,
+        justifyContent: 'flex-start',
+        flexDirection: 'row',
+        borderTopWidth: 1,
+        borderColor: '#BBB'
     },
     caption: {
         marginLeft: 10,

@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     },
     commentContainer: {
         flexDirection: 'row',
-        height: 17
     },
     nickname: {
         marginLeft: 5,
